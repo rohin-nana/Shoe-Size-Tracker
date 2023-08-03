@@ -1,0 +1,14 @@
+count: 0
+Nike Air Max 97
+Men's Shoes
+available sizes: ['3.5', '4', '4.5', '5', '5.5', '6', '6.5', '7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12', '13', '14', '15']
+unavailable sizes: ['12.5', '16', '17']
+img: https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fjfip8ga1ep22vhxdcew/air-max-97-mens-shoe-LJmK45.png
+
+count: 1
+Nike Air Max 90
+Men's Shoes
+available sizes: ['6', '6.5', '7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12', '12.5', '13', '14', '15']
+unavailable sizes: []
+img: https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/m55is6buar3k4isirw0k/air-max-90-mens-shoes-6n3vKB.png
+
