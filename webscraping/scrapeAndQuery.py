@@ -1,5 +1,6 @@
 # scraping imports
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
@@ -14,7 +15,9 @@ from pymongo.server_api import ServerApi
 # ---------------- SCRAPING ----------------
 
 URL = "https://www.nike.com/w/shoes-y7ok"
-driver = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
+driver = webdriver.Chrome(options=chrome_options)
 driver.get(URL)
 
 # scrolls down until end of page
